@@ -42,7 +42,7 @@ const deleteJob = async (req,res)=>{
 // }
 
 
-const updatejob = async (req,res)=>{
+const updateJob = async (req,res)=>{
     const{
         body: {company,position},
         user:{userId},
@@ -61,4 +61,4 @@ const updatejob = async (req,res)=>{
 
 }
 
-module.exports = {getAllJobs,getJob,updatejob,deleteJob,createJob};
+module.exports = {getAllJobs,getJob,updateJob,deleteJob,createJob};
